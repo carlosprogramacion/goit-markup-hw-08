@@ -1,24 +1,28 @@
 :root {
     --navegacion: #2196F3;
     --texcontenido1: #757575;
-    --texcontenido2: #FFFF;
     --textitulos: #212121;
-    --fondo1: #E5E5E5;
-    --fondo2: #2F303A;
-    --fondo3: #F5F4FA;
+    --fondo1: #FFFF;
+    --fondo2: #E5E5E5;
+    --fondo3: #2F303A;
+    --fondo4: #F5F4FA;
 }
 body {
-    background-color: var(--fondo1);
+    background-color: var(--fondo2);
 }
 .logo {
     color: var(--navegacion);
 }
-.navegacion-principal {
-    background-color: var(--texcontenido2);
+header {
+    background-color: var(--fondo1);
 }
-.titulos {
+
+.navegacion-principal a {
+    text-decoration: none;
+}
+.titulos h4 {
     color: #212121; 
 }
-a {
-    text-decoration: underline;
+p {
+    color: var(--texcontenido1);
 }
