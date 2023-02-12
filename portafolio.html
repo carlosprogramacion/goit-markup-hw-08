@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Portafolio</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" >
+  </head>
 <body>
     <header>
-      <nav class="navegacion-principal">
-        <p class="logo"><a href="portafolio">Portafolio</a></p>
-        <ul>
-          <li><a href="estudio.html">Estudio</a></li>
-          <li><a href="index.html">Portafolio</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+      <nav class="navegacion">
+        <p class="logo"><a href="WebStudio">WebStudio</a></p>
+          <ul>
+            <li><a href="estudio.html" class="titulos">Estudio</a></li>
+            <li><a href="portafolio.html" class="titulos">Portafolio</a></li>
+            <li><a href="contacto.html" class="titulos">Contacto</a></li>
+          </ul>
       </nav>
-      <div>
+      <div class="navegacion">
         <ul>
-          <li><a href="mailito:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
+          <li><a href="mailito:info@devstudio.com" class="titulos">info@devstudio.com</a></li>
+          <li><a href="tel:+525555296000" class="titulos">+52 55 5529 6000</a></li>
         </ul>
       </div>
     </header>
     <main>
       <div>
         <ul> 
-          <li><a href="Todo"></a><input type="button" value="Todo"></li>
-          <li><a href="Sitio-web"></a><input type="button" value="Sitio-web"></li>
-          <li><a href="Aplicaciones"></a><input type="button" value="Aplicaciones"></li>
-          <li><a href="Diseño"></a><input type="button" value="Diseño"></li>
-          <li><a href="Marketing"></a><input type="button" value="Marketing"></li>
+          <li><input class="btn" type="button" value="Todo"></li>
+          <li><input class="btn" type="button" value="Sitio-web"></li>
+          <li><input class="btn" type="button" value="Aplicaciones"></li>
+          <li><input class="btn" type="button" value="Diseño"></li>
+          <li><input class="btn" type="button" value="Marketing"></li>
         </ul>
       </div>
-
       <div>
         <ul>
           <li><img src="./img/Tecnoduck.jpg" alt="Tecnoduck" width="300" >
@@ -42,6 +48,7 @@
           </li>
           <li><img src="./img/Poster.jpg" alt="Poster" width="300" >
             <h4>Póster de Nueva Orleans vs Estrella Dorada</h4>
+            
             <p>Diseño</p>
           </li>
           <li><img src="./img/Restaurente.jpg" alt="Restaurente" width="300" >
@@ -76,14 +83,15 @@
       </div>
     </main>
     <footer>
-      <h3>WebStudio</h3>
+      <p class="logo"><a href="WebStudio">WebStudio</a></p>
       <address>Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
-      <ul class="nav_contactos">
-        <li><a href="mailito:info@example.com">info@devstudio.com</a></li>
-        <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
-      </ul>
-       
-    </footer><h4>ENCUENTRENOS EN</h4>
+      <div class="navegacion">
+        <ul>
+          <li><a href="mailito:info@devstudio.com" class="titulos">info@devstudio.com</a></li>
+          <li><a href="tel:+525555296000" class="titulos">+52 55 5529 6000</a></li>
+        </ul>
+      </div>
+    </footer>
        
     
 </body>

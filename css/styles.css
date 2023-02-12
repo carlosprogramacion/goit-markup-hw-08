@@ -21,20 +21,22 @@ header {
 }
 
 a {
-    text-decoration: none;  
-    
+    text-decoration: none;   
 }
-.navegacion {
-    
+.navegacion {  
     text-decoration: none;
 }
 .navegacion .titulos:hover {
-    color: var(--navegacion);
-      
-}
-    
+    color: var(--navegacion);    
+}   
 .titulos {
     color: #212121;       
+}
+.btn {
+    color: var(--textitulos);
+}
+.btn:hover {
+    color: var(--navegacion);
 }
  h3 h4 {
     font-family: 'Roboto', sans-serif;
@@ -43,6 +45,8 @@ a {
  
 p {
     color: var(--texcontenido1);
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
 }
 .logo {
 font-family: 'Raleway', sans-serif;
