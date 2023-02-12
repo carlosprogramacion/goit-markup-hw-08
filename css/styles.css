@@ -9,6 +9,7 @@
 }
 body {
     background-color: var(--fondo2);
+    
 }
 .logo {
     color: var(--navegacion);
@@ -20,9 +21,16 @@ header {
 .navegacion-principal a {
     text-decoration: none;
 }
-.titulos h4 {
+.titulos {
     color: #212121; 
+    familia tipográfica: 'Roboto', sans-serif;
+     font-weight: 500:
 }
+ h3 h4 {
+    familia tipográfica: 'Roboto', sans-serif;
+     font-weight: 500;
+ }
+ 
 p {
     color: var(--texcontenido1);
 }
