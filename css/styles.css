@@ -9,22 +9,32 @@
 }
 body {
     background-color: var(--fondo2);
-    
+    font-family: 'Roboto', sans-serif;
+
 }
 .logo {
     color: var(--navegacion);
 }
 header {
     background-color: var(--fondo1);
+    color: var(--textitulos);
 }
 
-.navegacion-principal a {
+a {
+    text-decoration: none;  
+    
+}
+.navegacion {
+    
     text-decoration: none;
 }
+.navegacion .titulos:hover {
+    color: var(--navegacion);
+      
+}
+    
 .titulos {
-    color: #212121; 
-    font-family: 'Roboto', sans-serif;
-     font-weight: 500;
+    color: #212121;       
 }
  h3 h4 {
     font-family: 'Roboto', sans-serif;
@@ -33,4 +43,8 @@ header {
  
 p {
     color: var(--texcontenido1);
+}
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
 }
