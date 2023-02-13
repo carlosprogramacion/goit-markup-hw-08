@@ -6,6 +6,7 @@
     --fondo2: #E5E5E5;
     --fondo3: #2F303A;
     --fondo4: #F5F4FA;
+    
 }
 body {
     background-color: var(--fondo2);
@@ -51,4 +52,12 @@ p {
 .logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
+}
+.negocios {
+    color: var(--textitulos);
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400; 
+}
+.negocios:hover {
+    color: var(--navegacion);
 }
