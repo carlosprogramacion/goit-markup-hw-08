@@ -1,3 +1,4 @@
+
 :root {
     --navegacion: #2196F3;
     --texcontenido1: #757575;
@@ -26,6 +27,9 @@ a {
 }
 .navegacion {  
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+
 }
 .navegacion .titulos:hover {
     color: var(--navegacion);    
@@ -35,11 +39,32 @@ a {
 }
 .btn {
     color: var(--textitulos);
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    cursor: pointer;  
 }
 .btn:hover {
     color: var(--navegacion);
 }
- h3 h4 {
+.btn1 {
+color: var(--textitulos);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn1:hover {
+    color: var(--navegacion);
+}
+
+ h1 {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+ } 
+ h3 {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+ }
+ h4 {
     font-family: 'Roboto', sans-serif;
      font-weight: 500;
  }
@@ -61,3 +86,4 @@ font-weight: 700;
 .negocios:hover {
     color: var(--navegacion);
 }
+
