@@ -29,17 +29,21 @@ a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
-
 }
 .navegacion .titulos:hover {
     color: var(--navegacion);    
 } 
-.footer {
+.titulos {
     text-decoration: none;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
 }
-.footer:hover {
+.pie {
+    text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+}
+.pie:hover {
     color: var(--navegacion);
 }
 
