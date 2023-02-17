@@ -6,11 +6,12 @@
     --fondo1: #FFFF;
     --fondo2: #E5E5E5;
     --fondo3: #2F303A;
-    --fondo4: #F5F4FA;
-    
+    --fondo4: #F5F4FA;  
+}
+html {
+    background-color: var(--fondo2);
 }
 body {
-    background-color: var(--fondo2);
     font-family: 'Roboto', sans-serif;
 
 }
@@ -37,6 +38,7 @@ a {
     text-decoration: none;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
+        color: #212121;
 }
 .pie {
     text-decoration: none;
@@ -46,10 +48,10 @@ a {
 .pie:hover {
     color: var(--navegacion);
 }
-
-.titulos {
-    color: #212121;       
+.titulo {
+    color: var(--fondo1);
 }
+
 .btn {
     color: var(--textitulos);
     font-family: 'Roboto', sans-serif;
@@ -60,13 +62,16 @@ a {
     color: var(--navegacion);
 }
 .btn1 {
-color: var(--textitulos);
+    background-color: var(--navegacion);
+    color: var(--fondo1);
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    text-decoration: none;
     cursor: pointer;
 }
 .btn1:hover {
-    color: var(--navegacion);
+    color: var(--textitulos);
+    
 }
 
  h1 {
@@ -90,6 +95,9 @@ p {
 .logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
+}
+.principal {
+    background: var(--fondo3);
 }
 .negocios {
     color: var(--textitulos);
