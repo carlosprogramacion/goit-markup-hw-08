@@ -113,13 +113,21 @@ font-weight: 700;
     background: var(--fondo3);
 }
 .negocios {
+    background-color: var(--fondo1);
     color: var(--textitulos);
     font-family: 'Roboto', sans-serif;
         font-weight: 400; 
 }
-.negocios:hover {
+.negocio {
+    color: var(--textitulos);
+    background-color: var(--fondo1);
+}
+.negocio:hover {
     color: var(--navegacion);
 }
 .contenedor {
     background-color: var(--fondo4);
+}
+.nosotros {
+    background-color: var(--fondo2);
 }
