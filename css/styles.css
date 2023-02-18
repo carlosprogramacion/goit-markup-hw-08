@@ -9,15 +9,33 @@
     --fondo4: #F5F4FA;  
 }
 html {
-    background-color: var(--fondo2);
+    box-sizing: border-box;  
 }
 body {
     font-family: 'Roboto', sans-serif;
+    
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
 
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
-.logo {
-    color: var(--navegacion);
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
+
+p {
+    color: var(--texcontenido1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
 header {
     background-color: var(--fondo1);
     color: var(--textitulos);
@@ -26,29 +44,43 @@ header {
 a {
     text-decoration: none;   
 }
+footer {
+    background-color: var(--fondo3);
+}
+.logo {
+    color: var(--navegacion);
+}
 .navegacion {  
     text-decoration: none;
+    
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
 }
 .navegacion .titulos:hover {
     color: var(--navegacion);    
 } 
+.navegacion-final {
+    color: var(--fondo1);
+}
 .titulos {
     text-decoration: none;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         color: #212121;
 }
-.pie {
+.informacion {
     text-decoration: none;
+    color: var(--fondo1);
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
 }
-.pie:hover {
+.informacion:hover {
     color: var(--navegacion);
 }
 .titulo {
+    color: var(--fondo1);
+}
+.informacion {
     color: var(--fondo1);
 }
 
@@ -72,26 +104,7 @@ a {
 .btn1:hover {
     color: var(--textitulos);
     
-}
-
- h1 {
-    font-family: 'Roboto', sans-serif;
-        font-weight: 900;
- } 
- h3 {
-    font-family: 'Roboto', sans-serif;
-        font-weight: 700;
- }
- h4 {
-    font-family: 'Roboto', sans-serif;
-     font-weight: 500;
- }
- 
-p {
-    color: var(--texcontenido1);
-    font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-}
+} 
 .logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
@@ -107,4 +120,6 @@ font-weight: 700;
 .negocios:hover {
     color: var(--navegacion);
 }
-
+.contenedor {
+    background-color: var(--fondo4);
+}
