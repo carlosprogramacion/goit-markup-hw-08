@@ -52,10 +52,17 @@ footer {
 }
 .navegacion {  
     text-decoration: none;
-    
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
 }
+.superior {
+    width: 120rem;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
 .navegacion .titulos:hover {
     color: var(--navegacion);    
 } 
