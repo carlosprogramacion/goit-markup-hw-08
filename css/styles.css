@@ -35,10 +35,18 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+ul {
+    list-style: none;
+}
 
 header {
     background-color: var(--fondo1);
     color: var(--textitulos);
+    width: 120rem;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
 }
 
 a {
@@ -52,8 +60,6 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-
-
 .navegacion {  
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -62,10 +68,7 @@ footer {
     justify-content: space-evenly;
       
 }
-/*.nav-principal {
-    display: flex;
-    justify-content: center;
-}*/
+
 .navegacion .titulos:hover {
     color: var(--navegacion);    
 } 
@@ -81,14 +84,7 @@ footer {
         justify-content: space-between;
         align-items: center;
 }
-/*.superior {
-    background-color: red;
-    width: 120rem;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;    
-}*/
+ 
 .informacion {
     text-decoration: none;
     color: var(--fondo1);
@@ -123,7 +119,6 @@ footer {
     color: var(--fondo1);
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    
     text-decoration: none;
     cursor: pointer;
 }
@@ -131,13 +126,17 @@ footer {
     color: var(--textitulos);
     
 } 
+.ubicacion {
+   display: flex; 
+   justify-content: center;
+}
 .logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 }
 .principal {
     background: var(--fondo3);
-     
+        
 }
 .negocios {
     background-color: var(--fondo1);
@@ -156,5 +155,9 @@ font-weight: 700;
     background-color: var(--fondo4);
 }
 .nosotros {
-    background-color: var(--fondo2);
+    background-color: var(--fondo2);  
 }
+.detalle {
+    display: flex;
+}
+
