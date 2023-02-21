@@ -52,19 +52,19 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-.informacion {
-    display: flex;
-}
+
+
 .navegacion {  
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     display: flex;
-    
+    justify-content: space-evenly;
+      
 }
 /*.nav-principal {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }*/
 .navegacion .titulos:hover {
     color: var(--navegacion);    
@@ -77,6 +77,9 @@ footer {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         color: #212121;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 }
 /*.superior {
     background-color: red;
@@ -91,6 +94,7 @@ footer {
     color: var(--fondo1);
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
+        
 }
 .informacion:hover {
     color: var(--navegacion);
