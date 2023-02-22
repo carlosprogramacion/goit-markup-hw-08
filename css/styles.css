@@ -57,16 +57,33 @@ footer {
 }
 .logo {
     color: var(--navegacion);
-    display: flex;
-    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    width: 145px;
+    height: 18px;
+    top: 24px;
+    left: 215px;
+    
 }
+
 .navegacion {  
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     display: flex;
-    justify-content: space-evenly;
-      
+    justify-content: space-between;
+    padding: 2rem;    
+}
+.navegacion-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}.navegacion-contactos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
 }
 
 .navegacion .titulos:hover {
@@ -78,7 +95,7 @@ footer {
 .titulos {
     text-decoration: none;
         font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+        font-weight: 500;
         color: #212121;
         display: flex;
         justify-content: space-between;
@@ -130,10 +147,7 @@ footer {
    display: flex; 
    justify-content: center;
 }
-.logo {
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-}
+
 .principal {
     background: var(--fondo3);
         
