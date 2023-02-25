@@ -8,11 +8,12 @@
     --fondo3: #2F303A;
     --fondo4: #F5F4FA;  
 }
-html {
+* {
     box-sizing: border-box;  
 }
 body {
     font-family: 'Roboto', sans-serif; 
+    
 }
 main {
     background-color: var(--fondo2);
@@ -64,8 +65,10 @@ footer {
     background-color: var(--fondo3);
     width: 100%;
     height: 252px;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
+    
     justify-content: center;
 }
 .logo {
@@ -99,7 +102,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 20%;
+    width: 30%;
 }
 .titulos {
     text-decoration: none;
@@ -171,7 +174,7 @@ footer {
     margin: auto;
     width: 1600px;
     height: 300px;
-    padding: 10rem;  
+    padding: 5rem;  
 }
 .negocios {
     background-color: var(--fondo1);
@@ -197,7 +200,7 @@ footer {
     background-color: var(--fondo2); 
     margin: auto;
     height: 300px;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     justify-content: space-around; 
     align-items: center;     
@@ -209,7 +212,8 @@ footer {
 .titulo-fuertes {
     text-align: center;
     font-size: 45px;
-    padding: 3rem;   
+    
+    padding: 2rem;   
 }
 
 .imagen-fuertes {
@@ -221,8 +225,8 @@ footer {
 .fuerte {
     background-color: var(--fondo2);
     width: 1600px;
-    margin: 5%;
-    padding: 1rem;
+    margin: auto;
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
 }
@@ -240,7 +244,10 @@ footer {
 }
 .equipo {
     padding: 3rem;
+    margin: 0;
     display: flex;
+    max-width: 100%;
+    height: auto;
     justify-content: space-evenly;
 }
 .card-image {
@@ -253,4 +260,14 @@ footer {
    margin: 0; 
    padding: 5px;
 }
-
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.especialista {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 3rem;
+}
