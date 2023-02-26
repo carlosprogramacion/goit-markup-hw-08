@@ -17,6 +17,7 @@ body {
 }
 main {
     background-color: var(--fondo2);
+    
 }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -65,13 +66,16 @@ footer {
         width: 1600px;
         height: 300px;
         padding: 5rem;
-    /*width: 100%;
-    height: 252px;
-    padding: 3rem;*/
+    
     display: flex;
     flex-direction: column;
     
     justify-content: center;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .logo {
     color: var(--navegacion);
@@ -80,10 +84,8 @@ footer {
     width: 145px;
     font-size: 25px;
     top: 24px;
-    left: 215px;
-    
+    left: 215px;   
 }
-
 .navegacion {  
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -91,8 +93,7 @@ footer {
     display: flex;
     
     justify-content: space-between;
-    padding: 2rem;  
-    
+    padding: 2rem;     
 }
 .navegacion-superior {
     display: flex;
@@ -146,10 +147,16 @@ footer {
 }
 
 .btn {
+    background-color: var(--fondo4);
     color: var(--textitulos);
     font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-    cursor: pointer;  
+    font-weight: 500;
+    cursor: pointer;
+    margin: 50px 30px;   
+    padding: 1rem; 
+    border: 0
+    ;
+    
 }
 .btn:hover {
     color: var(--navegacion);
@@ -182,15 +189,25 @@ footer {
     background-color: var(--fondo1);
     color: var(--textitulos);
     font-family: 'Roboto', sans-serif;
-    font-weight: 400; 
-   
-    text-align: center;
-     
+    /*font-weight: 400;*/   
 }
 
-.negocio {
-    color: var(--textitulos);
-    background-color: var(--fondo1);  
+.negocio a{
+    color: var(--texcontenido1);
+    background-color: var(--texcontenido1);
+    text-align: center; 
+    
+}
+.negocio-studio {
+    color: var(--texcontenido1);
+    margin: auto;
+    padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.negocio-studio:hover {
+    color: var(--navegacion);
 }
 .negocio:hover {
     color: var(--navegacion);
@@ -198,16 +215,13 @@ footer {
 .contenedor {
     background-color: var(--fondo4);
 }
-.nosotros {
-    
-    margin: auto;
-    
+.nosotros {    
+    margin: auto;   
     padding: 2rem;
     display: flex;
     justify-content: space-around; 
     align-items: center;     
-}
-    
+}   
 .detalles {
     display: flex;
 }
@@ -219,7 +233,6 @@ footer {
     height: auto;
     padding: 3rem;   
 }
-
 .imagen-fuertes {
     width: 1600px;
         margin: auto;
@@ -255,32 +268,29 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    
 }
 .talento {
     background-color: var(--fondo4);
     margin: auto;
         width: 1600px;
         height: 800px;
-        padding: 2rem;
-    
-    
+        padding: 2rem;      
 }
 .card-image {
     display: flex;
     max-width: 100%;
     height: auto;
 }
-
 .card-heading {
-   margin: 0; 
-   padding: 5px;
+   margin: 10px; 
+   text-align: left;
 }
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.card-heading2 {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
 }
+
 .especialista {
     max-width: 100%;
     height: auto;
@@ -291,3 +301,33 @@ img {
     display: flex;
     align-items: flex-start;
 }
+.paginas {   
+    padding: 20px 0;
+    display: flex;
+       justify-content: center;
+       justify-items: flex-start;
+       max-width: 100%;       
+}
+.botones-2 {
+    background-color: var(--fondo2);
+}
+.proyectos {
+    margin-left: 500px;
+        width: 1600px;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 300px 300px 300px; 
+        column-gap: 3rem; 
+        row-gap: 3rem;   
+}
+.tiendas-web {
+    background-color: var(--fondo1);
+    height: 90px;
+    margin: 0;
+    display: block;
+}
+.espacio {
+    margin: 10px;  
+}
+
+
