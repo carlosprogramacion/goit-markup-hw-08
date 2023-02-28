@@ -12,7 +12,11 @@
     box-sizing: border-box;  
 }
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        background-color: var(--primary-white-color);
     
 }
 main {
@@ -47,11 +51,11 @@ ul {
 header {
     background-color: var(--fondo1);
     color: var(--textitulos);
-    margin-top: 0px;
+    
     margin-right: auto;
     margin-bottom: 0;
-    margin-left: auto;
-    width: 1600px;
+   margin: 0 auto;
+    
     height: 140px;
     left: 0px;
     
@@ -62,15 +66,15 @@ a {
 }
 footer {
     background-color: var(--fondo3);
-    margin: auto;
-        width: 1600px;
-        height: 300px;
+    
+    margin: 0 auto;
+        width: 100%;
+        height: 400px;
         padding: 5rem;
-    
     display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
+    justify-content: space-between;
+    /*flex-direction: column;
+    justify-content: center;*/
 }
 img {
     display: block;
@@ -97,12 +101,12 @@ img {
 }
 .navegacion-superior {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 50%;
 }.navegacion-contactos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 30%;
 }
@@ -137,9 +141,9 @@ img {
 }
 .titulo {
     color: var(--fondo1);
-    
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+   
     text-align: center;
 }
 .informacion {
@@ -180,16 +184,16 @@ img {
 
 .principal {
     background: var(--fondo3);
-    margin: auto;
-    width: 1600px;
-    height: 300px;
-    padding: 5rem;  
+    height: 600px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 .negocios {
     background-color: var(--fondo1);
     color: var(--textitulos);
     font-family: 'Roboto', sans-serif;
-    /*font-weight: 400;*/   
+      
 }
 
 .negocio a{
@@ -212,8 +216,14 @@ img {
 .negocio:hover {
     color: var(--navegacion);
 }
-.contenedor {
-    background-color: var(--fondo4);
+.container{
+    
+    width: 1170px;
+    margin: 0 auto;
+    
+    padding: 1rem;
+    
+    
 }
 .nosotros {    
     margin: auto;   
@@ -234,26 +244,24 @@ img {
     padding: 3rem;   
 }
 .imagen-fuertes {
-    width: 1600px;
-        margin: auto;
-        padding: 3rem;
+    
         display: flex;
-        justify-content: space-between;  
+        justify-content: space-around;  
 }
 
 .fuerte {
-    width: 1600px;
-    margin: auto;
-    padding: 3rem;
+   
+    padding: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .logros {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    
-    padding: 2rem;
+    margin: 0 auto;
+    padding: 3rem;
+   
 }
 .subtitulos {
     color: var(--textitulos);
@@ -261,18 +269,15 @@ img {
         font-weight: 700;
 }
 .equipo {
-    margin: auto;
-        width: 1600px;
-        height: 500px;
-        padding: 5rem;
+        
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
 }
 .talento {
     background-color: var(--fondo4);
-    margin: auto;
-        width: 1600px;
+    margin: 0 auto;
+        width: 100%;
         height: 800px;
         padding: 2rem;      
 }
@@ -292,10 +297,10 @@ img {
 }
 
 .especialista {
-    max-width: 100%;
+   
     height: auto;
     margin: 0;
-    padding: 3rem;
+    padding: rem;
 }
 .ubicacion {
     display: flex;
