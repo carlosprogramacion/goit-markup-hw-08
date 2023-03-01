@@ -66,15 +66,13 @@ a {
 }
 footer {
     background-color: var(--fondo3);
-    
     margin: 0 auto;
         width: 100%;
         height: 400px;
         padding: 5rem;
     display: flex;
     justify-content: space-between;
-    /*flex-direction: column;
-    justify-content: center;*/
+    
 }
 img {
     display: block;
@@ -126,8 +124,6 @@ img {
 .navegacion-final {
     color: var(--fondo1);
 }
-
- 
 .informacion {
     text-decoration: none;
     color: var(--fondo1);
@@ -143,7 +139,6 @@ img {
     color: var(--fondo1);
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-   
     text-align: center;
 }
 .informacion {
@@ -158,8 +153,7 @@ img {
     cursor: pointer;
     margin: 50px 30px;   
     padding: 1rem; 
-    border: 0
-    ;
+    border: 0;
     
 }
 .btn:hover {
@@ -193,6 +187,7 @@ img {
     background-color: var(--fondo1);
     color: var(--textitulos);
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 30%;
       
 }
 
@@ -217,13 +212,8 @@ img {
     color: var(--navegacion);
 }
 .container{
-    
     width: 1170px;
-    margin: 0 auto;
-    
-    padding: 1rem;
-    
-    
+    margin: auto;
 }
 .nosotros {    
     margin: auto;   
@@ -238,20 +228,23 @@ img {
 .titulo-fuertes {
     text-align: center;
     font-size: 45px;
-    margin: 0;
+    margin-top: 10%;
     max-width: 100%;
     height: auto;
     padding: 3rem;   
 }
 .imagen-fuertes {
-    
         display: flex;
         justify-content: space-around;  
 }
+.funcion {
+    display: flex;
+        justify-content: space-around;
+}
 
-.fuerte {
-   
-    padding: 2rem;
+.fuerte { 
+    background-color: var(--fondo1);
+    padding-bottom: 5%;
     display: flex;
     justify-content: space-around;
 }
@@ -260,16 +253,15 @@ img {
     justify-content: center;
     width: 100%;
     margin: 0 auto;
-    padding: 3rem;
-   
+    padding-top: 3rem; 
+    padding-left: 1rem;  
 }
 .subtitulos {
     color: var(--textitulos);
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
 }
-.equipo {
-        
+.equipo {     
         display: flex;
         justify-content: space-evenly;
         align-items: center;
