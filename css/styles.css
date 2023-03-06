@@ -91,6 +91,7 @@ img {
   height: 80px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #ECECEC;
 }
 .navegacion-superior {
   
@@ -106,6 +107,9 @@ img {
   justify-content: space-around;
   align-items: center;
   width: 30%;
+}
+.icon-section {
+  
 }
 .titulos {
   text-decoration: none;
