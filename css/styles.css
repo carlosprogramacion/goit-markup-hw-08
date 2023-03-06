@@ -6,6 +6,7 @@
   --fondo2: #e5e5e5;
   --fondo3: #2f303a;
   --fondo4: #f5f4fa;
+  
 }
 * {
   box-sizing: border-box;
@@ -109,8 +110,32 @@ img {
   width: 30%;
 }
 .icon-section {
-  
+  display: flex;
+  padding: 10px;
 }
+.icon-section > svg{
+  cursor: pointer;
+}
+.icon-section > svg:hover path{
+  fill: var(--navegacion);
+}
+.icon-section > svg path{
+  fill: var(--texcontenido1);
+}
+.icon-section2 {
+  display: flex;
+  padding: 10px;
+}
+.icon-section2 > svg{
+  cursor: pointer;
+}
+.icon-section2 > svg:hover path{
+  fill: var(--navegacion);
+}
+.icon-section2 > svg path{
+  fill: var(--texcontenido1);
+}
+
 .titulos {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -293,6 +318,14 @@ img {
   margin: 0 auto;
   padding-top: 3rem;
   padding-left: 1rem;
+}
+.dedicamos {
+  background-image: url(../img/caja_1.jpg);
+  width: 370px;
+  height: 294px;
+}
+.titulo2 {
+  color: var(--fondo1);
 }
 .subtitulos {
   color: var(--textitulos);
