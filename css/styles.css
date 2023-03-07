@@ -291,7 +291,7 @@ img {
 }
 .imagen-fuertes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .funcion {
   display: flex;
@@ -319,6 +319,11 @@ img {
   padding-top: 3rem;
   padding-left: 1rem;
 }
+.titulo2 {
+  color: var(--fondo1);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
 .escritorio {
   background-image: url(../img/escritorio.jpg);
   width: 370px;
@@ -327,42 +332,30 @@ img {
   justify-content: center;
   align-items: end;
 }
-.titulo2 {
-  color: var(--fondo1);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-}
-.titulo-escritorio {
+
+.titulo-escritorio,
+.titulo-moviles,
+.titulo-diseño {
   width: 370px;
   height: 70px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(47, 48, 58, 0.8);
-  
+  background-color: rgba(47, 48, 58, 0.8); 
 }
 .moviles {
   background-image: url(../img/moviles.jpg);
-  background-size: cover;
-  color: var(--fondo1);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   width: 370px;
   height: 294px;
-  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: end;
 }
 .diseño {
   background-image: url(../img/diseño.jpg);
-  color: var(--fondo1);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   width: 370px;
   height: 294px;
-  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: end;
