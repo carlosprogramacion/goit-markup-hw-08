@@ -6,6 +6,7 @@
   --fondo2: #e5e5e5;
   --fondo3: #2f303a;
   --fondo4: #f5f4fa;
+  --iconos: #AFB1B8;
   
 }
 * {
@@ -245,6 +246,8 @@ img {
 }
 .negocio-studio {
   color: var(--texcontenido1);
+  width: 270px;
+
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -279,15 +282,31 @@ img {
   margin: 0;
 }
 .titulo-fuertes2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   text-align: center;
   font-size: 45px;
   background-color: var(--fondo4);
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: end;
   width: 100%;
   height: 140px;
   margin: 0;
+}
+.titulo-clientes {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 140px;
+  margin: 0 auto;
 }
 .imagen-fuertes {
   display: flex;
@@ -325,6 +344,12 @@ img {
   padding-top: 5rem;
   display: flex;
   justify-content: space-around;
+}
+.iconos {
+  width: 270px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .logros {
@@ -393,16 +418,12 @@ img {
   background-color: var(--fondo4);
   margin: 0 auto;
 }
-.talento {
-  background-color: var(--fondo4);
-  margin: 0 auto;
-  width: 1170px;
-  margin: 0 auto;
-  /*width: 100%;*/
-  height: 800px;
-  padding: 2rem;
+.icon-talentos {
+  fill: var(--iconos);
+  width: 270px;
+  height: 16.25px;
+  
 }
-
 .card-image {
   display: flex;
   max-width: 100%;
@@ -426,6 +447,18 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.referencias {
+  background-color: var(--fondo1);
+  width: 1600px;
+  margin: 0 auto;
+}
+.clientes {
+  background-color: var(--fondo1);
+  width: 1600px;
+  height: 400px;
+  margin: 0 auto;
+  ;
 }
 .ubicacion {
   display: flex;
