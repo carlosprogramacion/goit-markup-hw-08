@@ -290,9 +290,9 @@ img {
   padding: 2rem;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
   width: 100%;
-  height: 140px;
+  height: 240px;
   margin: 0;
 }
 .titulo-clientes {
@@ -314,8 +314,8 @@ img {
 }
 .funcion {
   display: flex;
-  justify-content: space-around;
-  padding: 1rem;
+  justify-content: space-evenly;
+  
   margin-top: 0;
   margin-bottom: 40px;
 }
@@ -324,7 +324,7 @@ img {
   background-color: var(--fondo1);
   width: 1600px;
   margin: 0 auto;
-  padding-bottom: 5%;
+  padding-bottom: 5rem;
   display: flex;
   justify-content: space-around;
 }
@@ -336,14 +336,34 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+}
+.card-icon2 {
+  background-color: var(--fondo1);
+  border-style: solid;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;;
+  margin-right: 3%;
+  width: 170px;
+  height: 81px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.iconos-fuerte2 {
+  width: 1600px;
+  padding-top: 3rem;
+  padding-left: 9rem;
+  padding-right: 3rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 .iconos-fuerte {
   width: 1600px;
   margin: 0 auto;
   padding-top: 5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .iconos {
   width: 270px;
@@ -355,12 +375,12 @@ img {
 .logros {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin: 0 auto;
+  display: block;
+  text-align: left;
+  width: 270px;
+  height: 120px;
   padding-top: 1rem;
-  padding-left: 1rem;
+  
 }
 .titulo2 {
   color: var(--fondo1);
@@ -412,12 +432,14 @@ img {
 .equipo {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 auto;
   align-items: center;
-  padding-top: 1rem;
+  
+  padding-left: 3rem;
   padding-bottom: 5rem;
   background-color: var(--fondo4);
-  margin: 0 auto;
 }
+
 .icon-talentos {
   fill: var(--iconos);
   width: 270px;
