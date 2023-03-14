@@ -80,14 +80,16 @@ img {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   width: 145px;
-  font-size: 25px;
+  height: 31px;
+  font-size: 26px;
+  letter-spacing: 3%;
   top: 24px;
   left: 215px;
 }
 .navegacion {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
   background-color: var(--fondo1);
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   width: 1600px;
   height: 80px;
@@ -386,6 +388,8 @@ img {
   color: var(--fondo1);
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  width: 135px;
+  height: 16px;
 }
 .escritorio {
   background-image: url(../img/escritorio.jpg);
@@ -444,7 +448,11 @@ img {
   fill: var(--iconos);
   width: 270px;
   height: 16.25px;
-  
+}
+.icon-talentos2 {
+  width: 24px;
+  height: 44px;
+  fill: var(--fondo1);
 }
 .card-image {
   display: flex;
@@ -480,8 +488,12 @@ img {
   width: 1600px;
   height: 400px;
   margin: 0 auto;
-  ;
 }
+.redes2 {
+  width: 800px;
+  
+}
+
 .ubicacion {
   display: flex;
   align-items: flex-start;
@@ -496,6 +508,7 @@ img {
   max-width: 100%;
   margin: 0 auto;
 }
+
 .botones-2 {
   background-color: var(--fondo2);
 }
@@ -517,6 +530,34 @@ img {
   width: 1600px;
   margin: 0 auto;
 }
+.pie-pagina {
+  width: 400px;
+  padding-left: 60px;
+}
+.encuentrenos {
+  width: 800px;
+  height: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.iconos3 {
+  width: 200px;
+  height: 44px;
+  display: flex;
+  justify-content: space-evenly; 
+}
+.redes3 {
+  background-color: rgba(255, 255, 255, 0.1);;
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+}
+
 .cards-container {
   width: 100%;
   padding: 5rem;
