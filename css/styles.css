@@ -414,8 +414,17 @@ img {
   color: var(--fondo1);
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  text-align: center;
+  width: 212px;
+  height: 16px;
+}
+.titulo-encuentrenos {
+  color: var(--fondo1);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: left;
   padding-top: 15px;
-  width: 135px;
+  width: 212px;
   height: 16px;
 }
 .escritorio {
@@ -563,7 +572,7 @@ img {
   padding-left: 60px;
 }
 .encuentrenos {
-  width: 0 au;
+  width: 370px;
   height: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
