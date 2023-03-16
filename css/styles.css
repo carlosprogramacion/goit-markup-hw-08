@@ -84,9 +84,8 @@ img {
   font-weight: 700;
   width: 145px;
   height: 31px;
-  font-size: 26px;
-  letter-spacing: 3%;
-  top: 24px;
+  font-size: 36px;
+  letter-spacing: 0.03px;
   left: 215px;
 }
 .navegacion {
@@ -415,6 +414,7 @@ img {
   color: var(--fondo1);
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  padding-top: 15px;
   width: 135px;
   height: 16px;
 }
@@ -563,7 +563,7 @@ img {
   padding-left: 60px;
 }
 .encuentrenos {
-  width: 800px;
+  width: 0 au;
   height: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -574,8 +574,10 @@ img {
 .iconos3 {
   width: 200px;
   height: 44px;
+  margin-top: 45px;
   display: flex;
   justify-content: space-evenly; 
+  
 }
 .redes3 {
   background-color: rgba(255, 255, 255, 0.1);;
@@ -599,6 +601,14 @@ img {
   justify-content: space-evenly;
 }
 .card {
+  margin-top: 30px;
+  width: 370px;
+  height: 404px;
+  padding-bottom: 1rem;
+  background-color: var(--fondo1);
+  border: 1px solid #EEEEEE;
+}
+.card:hover {
   margin-top: 30px;
   width: 370px;
   height: 404px;
