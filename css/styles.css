@@ -192,7 +192,8 @@ img {
   border: none;
 }
 .btn:hover {
-  color: var(--navegacion);
+ background-color: var(--navegacion);
+ color: var(--fondo1);
 }
 .btn1 {
   background-color: var(--navegacion);
@@ -354,8 +355,12 @@ img {
   justify-content: center;
   align-items: center;
 }
+.card-icon2:hover > svg path{
+  fill: var(--navegacion);
+  cursor: pointer;
+}
+
 .card-icon2:hover {
-  
   border: solid;
   border-radius: 4px;
   border: 1px solid var(--navegacion);
