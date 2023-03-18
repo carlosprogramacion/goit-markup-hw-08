@@ -88,7 +88,7 @@ img {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   width: 145px;
-  height: 31px;
+  height: 51px;
   font-size: 36px;
   letter-spacing: 0.03px;
   left: 215px;
@@ -101,7 +101,7 @@ img {
   width: 1600px;
   height: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border-bottom: 1px solid #ECECEC;
 }
 .navegacion-superior {
@@ -110,7 +110,7 @@ img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 50%;
+  width: 40%;
 }
 .navegacion-contactos {
   display: flex;
