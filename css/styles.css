@@ -289,9 +289,8 @@ img {
 .titulo-fuertes2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  text-align: center;
   font-size: 45px;
-  width: 1000px;
+  width: 1600px;
   background-color: var(--fondo4);
   display: flex;
   justify-content: center;
@@ -312,13 +311,14 @@ img {
   margin: 0 auto;
 }
 .team-container{
-  width: 1200px;
+  width: 100%;
   height: 200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-content: center;
-  
 }
+
 .imagen-fuertes {
   display: flex;
   justify-content: space-evenly;
