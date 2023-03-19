@@ -70,10 +70,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-.section {
-  background-color: red;
-  
-}
 
 .final {
   width: 1600px;
@@ -117,8 +113,14 @@ img {
   align-items: center;
   width: 30%;
 }
+.paginas-nav {
+  width: 79px;
+  margin: 0 auto;
+}
 .icon-section {
+  height: 79px;
   display: flex;
+  align-items: center;
   padding: 10px;
 }
 .icon-section > svg{
@@ -152,6 +154,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 79px;
 }
 .titulo {
   color: var(--fondo1);
