@@ -70,12 +70,29 @@ img {
   max-width: 100%;
   height: auto;
 }
+.section {
+  height: 708px;
+  background: var(--fondo4);
+  display: flex;
+  align-items: center;
+  background-color: red;
+  
+}
+.flex-container {
+  width: 1200px;
+  margin: 0 auto;
+  
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
 
 .final {
   width: 1600px;
   display: grid;
   grid-template-columns: 30% 70%;
-  padding-left: 5rem;
+  padding-left: 10rem;
 }
 
 .logo {
@@ -95,6 +112,7 @@ img {
   font-weight: 500;
   width: 1600px;
   height: 80px;
+  padding: 20px;
   display: flex;
   justify-content: space-evenly;
   border-bottom: 1px solid #ECECEC;
@@ -109,18 +127,12 @@ img {
 }
 .navegacion-contactos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   width: 30%;
 }
-.paginas-nav {
-  width: 79px;
-  margin: 0 auto;
-}
 .icon-section {
-  height: 79px;
   display: flex;
-  align-items: center;
   padding: 10px;
 }
 .icon-section > svg{
@@ -154,7 +166,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 79px;
 }
 .titulo {
   color: var(--fondo1);
@@ -383,8 +394,8 @@ img {
 .iconos-fuerte2 {
   width: 1600px;
   padding-top: 3rem;
-  padding-left: 9rem;
-  padding-right: 3rem;
+  padding-left: 14rem;
+  padding-right: 12rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
@@ -485,15 +496,15 @@ img {
   font-weight: 700;
 }
 .equipo {
-  width: 1600px;
-  height: 708px;
+  
+  width: 270px;
+  height: 428px;
+  margin: 0 auto;
+  
   display: flex;
   justify-content: space-evenly;
-  margin: 0 auto;
   align-items: center;
-  padding-left: 3rem;
-  padding-bottom: 5rem;
-  background-color: var(--fondo4);
+  
 }
 
 .icon-talentos {
@@ -524,10 +535,9 @@ img {
 }
 
 .especialista {
-  background-color: var(--fondo1);
+  background-color: red;
   height: auto;
   width: 270px;
-  height: 428px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -536,6 +546,8 @@ img {
   background-color: var(--fondo1);
   width: 1600px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 .clientes {
   background-color: var(--fondo1);
@@ -560,20 +572,10 @@ img {
   justify-content: center;
   align-content: end;
 
-  /*padding: 0px 0;
-  background-color: var(--fondo1);
-  width: 1200px;
-  display: flex;
-  justify-content: center;
-  align-content: end;
-
-  margin: 0 auto;*/
 }
 
 .botones-2 {
-  
   background-color: var(--fondo2);
-  
 }
 .proyectos {
   padding: 1rem;
@@ -588,6 +590,15 @@ img {
   margin: 0;
   display: block;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nuestro {
+  background-color: var(--fondo4);
+  width: 1600px;
+  margin: 0 auto;
+}
 
 .container2 {
  background-color: var(--fondo1);
@@ -601,14 +612,14 @@ img {
   margin: 0 auto;
 }
 
-.section {
+.section-link {
   width: 1600px;
   margin: 0 auto;
 }
 
 .pie-pagina {
   width: 400px;
-  padding-left: 60px;
+  padding-left: 50px;
 }
 .encuentrenos {
   width: 370px;
@@ -641,7 +652,11 @@ img {
 
 .cards-container {
   width: 100%;
-  padding: 1rem 5rem;
+  padding-top: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 6rem;
+  
   background-color: var(--fondo1);
   display: flex;
   flex-direction: row;
