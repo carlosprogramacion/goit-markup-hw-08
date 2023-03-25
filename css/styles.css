@@ -131,6 +131,32 @@ img {
   align-items: center;
   width: 30%;
 }
+.linksup {
+  width: 67px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linksup::after {
+  content: "";
+  display: block;
+  width: 67px;
+  height: 4px;
+  bottom: 0px;
+  background: #2196F3;
+  border-radius: 2px;
+  position: absolute;
+  
+ 
+}
+.linksup::after:hover {
+  color: var(--navegacion);
+  background-color: currentColor;
+  
+}
+
 .icon-section {
   display: flex;
   padding: 10px;
@@ -688,9 +714,7 @@ img {
 
 .card-body {
   padding: 20px 24px;
-  /*padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 54px;*/
+  
 }
 .card-animation {
   position: absolute;
@@ -711,7 +735,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
-.cards-container:hover .card-animation{
+.card-emergente:hover .card-animation{
   transform: translateY(0%);
 }
 .card-emergente {
