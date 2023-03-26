@@ -20,22 +20,16 @@
   </head>
   <body>
     <header>
-      <section class="section-link">
+      <div class="section-link">
         <div class="containernav">
           <nav class="navegacion">
             <ul class="navegacion-superior">
               <li>
                 <p class="logo"><a href="WebStudio">WebStudio</a></p>
               </li>
-              <divcla class="linksup">
                 <li><a href="estudio.html" class="titulos">Estudio</a></li>
-              </divcla>
-              <div class="linksup">
-                <li><a href="portafolio.html" class="titulos">Portafolio</a></li>
-              </div>
-              <div class="linksup">
+                <li><a href="portafolio.html" class="titulos">Portafolio</a></li>                       
                 <li><a href="contacto.html" class="titulos">Contacto</a></li>
-              </div> 
             </ul>
             <ul class="navegacion-contactos">
               <li>
@@ -43,7 +37,7 @@
                   <svg width="40" height="15" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z" fill="#757575"/>
                   </svg>
-                  <a href="mailito:info@devstudio.com" class="titulos">info@devstudio.com</a>  
+                  <a href="mailito:info@devstudio.com" class="titulos-link">info@devstudio.com</a>  
                 </div>  
               </li>
               <li>
@@ -51,13 +45,13 @@
                     <svg width="40" height="15" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z" fill="#757575"/>
                     </svg>
-                    <a href="tel:+525555296000" class="titulos">+52 55 5529 6000</a>
+                    <a href="tel:+525555296000" class="titulos-link">+52 55 5529 6000</a>
                 </div>
               </li>
             </ul>
-          </nav> <!--fin navegacion-->
-        </div> <!--fin container-->
-    </section>
+          </nav> 
+        </div> 
+    </div>
     </header>
     <section class="principal">
       <div class="hero">
@@ -156,13 +150,12 @@
               <h3 class="titulo-fuertes2">Nuestro Equipo</h3>
           </div>
         <div class="flex-container">
-          
-            <ul class="equipo">
+            <div class="equipo">
               <div class="especialista">
                 <img class="card-image" src="./img/Andres_Cubo.jpg" alt="Andres Cubo" width="270" height="260" >
                 <div class="negocios">
-                  <h4 class="card-heading2">Andres Cubo</h4>
-                  <a href="#" class="negocio-studio">Diseñador de Producto</a>
+                    <h4 class="card-heading2">Andres Cubo</h4>
+                    <a href="#" class="negocio-studio">Diseñador de Producto</a>
                       <ul class="iconos">
                         <li class="iconos1">
                             <svg class="icon-talentos"><use href="./iconos.svg#icon-instagram-2"></use></svg> 
@@ -177,12 +170,12 @@
                             <svg  class="icon-talentos"><use href="./iconos.svg#icon-linkedin-1"></use></svg>
                         </li>
                       </ul>            
-                  </div>
-                </div><!--Fin Especialistas-->
-            </ul>
+                </div>
+              </div><!--Fin Especialistas-->
+            </div>
 
-            <ul class="equipo">
-              <section class="especialista">
+            <section class="equipo">
+              <div class="especialista">
                   <img class="card-image" src="./img/carla_Palacios.jpg" alt="Carla Palacios" width="270" height="260" >
                   <div class="negocios">
                       <h4 class="card-heading2">Carla Palacios</h4>
@@ -202,11 +195,11 @@
                           </li>
                         </ul>
                     </div>
-              </section>
-            </ul>  
+              </div>
+            </section>  
 
-              <ul class="equipo">
-                <section class="especialista">
+              <section class="equipo">
+                <div class="especialista">
                   <img class="card-image" src="./img/Mario_Dorado.jpg" alt="Mario Dorado" width="270" height="260" >
                   <div class="negocios">
                     <h4 class="card-heading2">Mario Dorado</h4>
@@ -226,11 +219,11 @@
                         </li>
                       </ul>
                   </div>
-                </section>
-              </ul>
+                </div>
+              </section>
 
-              <ul class="equipo">  
-                <section class="especialista">
+              <section class="equipo">  
+                <div class="especialista">
                   <img class="card-image" src="./img/Pablo_Mijangos.jpg" alt="Pablo Mijangos" width="270" height="260" >
                   <div class="negocios">
                     <h4 class="card-heading2">Pablo Mijangos</h4>
@@ -250,8 +243,8 @@
                         </li>
                       </ul>
                   </div>
-                </section>
-              </ul>
+                </div>
+              </section>
         </div>  
       </section>
 
