@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet" >
     <link rel="stylesheet" href="./css/styles.css" >
+    <link rel="stylesheet" href="./css/modal.css">
   </head>
   <body>
     <header>
@@ -61,11 +62,12 @@
           SU NEGOCIO
         </h1>
         <div class="ubicacion">
-          <input class="btn1" type="button" value="Solicita nuestro servicio">
+          <input class="btn1" type="button" data-modal-open value ="Solicita nuestro servicio">
         </div>
       </div>
       </div>
     </section>
+    
     <main>
       <div class="ventajas">
         <div class="container">
@@ -171,7 +173,7 @@
                         </li>
                       </ul>            
                 </div>
-              </div><!--Fin Especialistas-->
+              </div>
             </div>
 
             <section class="equipo">
@@ -322,5 +324,11 @@
           </ul> 
      </div>           
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+       <button class="btmodal" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
