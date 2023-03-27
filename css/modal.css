@@ -22,8 +22,7 @@ body {
 }
 .btmodal {
     position: absolute;
-    right: 3px;
-    
+    right: 3px; 
 }
 
 .is-hidden{
