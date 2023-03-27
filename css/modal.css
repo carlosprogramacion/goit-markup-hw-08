@@ -1,5 +1,5 @@
 body {
-    height: 300vh;
+    height: 0;
 }
 .backdrop{
     position: fixed;
@@ -13,13 +13,19 @@ body {
     width: 528px;
     height: 581px;
     background: var(--fondo1);
-    margin-left: 620px;
+    margin-left: 40%;
+    margin-right: 60%;
     position: fixed;
     top: 221px;
     bottom: 222px;
-    transition: translate(-50%, -50%);
+    transition: translate(-50%, -50%);   
 }
+.btmodal {
+    position: absolute;
+    right: 3px;
     
+}
+
 .is-hidden{
     display: none;
 }
