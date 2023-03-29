@@ -94,20 +94,26 @@ img {
 
 .final {
   width: 1600px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 30% 70%;
-  padding-left: 10rem;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  padding-right: 13rem;
+  /*justify-content: space-around;*/
+  
+  padding-left: 13rem;
 }
 
 .logo {
   color: var(--navegacion);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  width: 145px;
-  height: 51px;
+  width: 350px;
+  height: 31px;
   font-size: 36px;
   letter-spacing: 0.03px;
   left: 215px;
+  margin-top: 30px;
 }
 .navegacion {
   text-decoration: none;
@@ -232,6 +238,7 @@ img {
 
 .informacion {
   color: var(--fondo1);
+  margin-top: 0 auto;
 }
 
 .btn {
@@ -261,6 +268,7 @@ img {
   border: 0;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 250ms var(--efecto);
 }
 .btn1:hover, 
 .btn1:focus {
@@ -483,12 +491,12 @@ img {
   width: 212px;
   height: 16px;
 }
-.titulo-encuentrenos {
+.titulo-footer {
   color: var(--fondo1);
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 3rem;
   width: 212px;
   height: 16px;
 }
@@ -585,7 +593,8 @@ img {
   margin: 0 auto;
 }
 .redes2 {
-  width: 800px;
+  width: 350px;
+  height: 189px;
   
 }
 
@@ -646,23 +655,34 @@ img {
   margin: 0 auto;
 }
 
-.pie-pagina {
-  width: 400px;
-  padding-left: 50px;
+.pie_pagina {
+  width: 350px;
+  height: 189px;
+  
 }
 .encuentrenos {
-  width: 370px;
-  height: 50px;
+  width: 200px;
+  height: 78px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   display: flex;
-  align-items: flex-end;
+  align-items: start;
 }
+.form_suscribir {
+  width: 350px;
+  height: 189px;
+  padding: 3rem;
+}
+.suscribirse {
+  width: 400px;
+  height: 48px;
+}
+
 
 .iconos3 {
   width: 200px;
   height: 44px;
-  margin-top: 45px;
+  
   display: flex;
   justify-content: space-evenly; 
   
