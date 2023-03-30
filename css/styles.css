@@ -74,8 +74,8 @@ img {
   width: 370px;
   height: 294px;
 }
-input {
-  
+
+.direccion {
   box-sizing: border-box;
   position: absolute;
   width: 358px;
