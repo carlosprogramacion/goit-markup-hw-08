@@ -74,6 +74,39 @@ img {
   width: 370px;
   height: 294px;
 }
+input {
+  
+  box-sizing: border-box;
+  position: absolute;
+  width: 358px;
+  height: 50px;
+  left: 850px;
+  top: 2787px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.btnform {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 1225px;
+  top: 2787px;
+  color: var(--fondo1);
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.iconenviar {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 73.31%;
+  right: 15.19%;
+  top: 25.53%;
+  bottom: 3.65%;
+  background: var(--navegacion);
+}
 .section {
   height: 708px;
   background: var(--fondo4);
@@ -676,13 +709,18 @@ img {
 .suscribirse {
   width: 400px;
   height: 48px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 358px;
+  height: 40px;
+  left: 850px;
+
 }
 
 
 .iconos3 {
   width: 200px;
   height: 44px;
-  
   display: flex;
   justify-content: space-evenly; 
   
