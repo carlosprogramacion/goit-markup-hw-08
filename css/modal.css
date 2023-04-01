@@ -1,3 +1,6 @@
+:root {
+    --textitulos: #212121;
+}
 body {
     height: 0;
 }
@@ -13,6 +16,7 @@ body {
     width: 528px;
     height: 581px;
     background: var(--fondo1);
+    padding: 2rem;
     margin-left: 40%;
     margin-right: 60%;
     position: fixed;
@@ -22,9 +26,50 @@ body {
 }
 .btmodal {
     position: absolute;
+    top: 2.22%;
     right: 3px; 
+    margin-right: 12px;
+}
+.titulo-modal p {
+    color: var(--textitulos);
+    width: 448px;
+    height: 23px;
+    left: 576px;
+    top: 261px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 3%;
+    text-align: center;
 }
 
 .is-hidden{
     display: none;
+}
+input {
+    padding: 8px;
+
+}
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.iconmodal {
+
+}
+.iconmodal {
+    width: 12px;
+    height: 12px;
+    position: relative;
+}
+.iconmodal {
+    position: absolute;
+    left: 8.67%;
+    right: 16.67%;
+    top: 21.17%;
 }

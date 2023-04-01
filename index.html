@@ -336,6 +336,24 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
        <button class="btmodal" data-modal-close><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="none"><path fill="#000" d="M11 1.108 9.892 0 5.5 4.392 1.108 0 0 1.108 4.392 5.5 0 9.892 1.108 11 5.5 6.608 9.892 11 11 9.892 6.608 5.5 11 1.108Z"/></svg></button>
+        <div class="titulo-modal">
+        <p>Deje sus datos, nos contactaremos con ud</p>
+        </div>
+        <form>
+          <label>Nombre
+            <input type="text" name="username" placeholder="" autofocus>
+            <svg class="iconmodal"><use href="./iconos.svg#icon-Persona"></use></svg>
+          </label>
+          <label>Teléfono
+            <input type="text" name="Teléfono" autofocus >
+          </label>
+          <label>E-mail
+            <input type="text" name="email" autofocus>
+          </label>
+          <label>Comentarios
+            <textarea name="feedback" cols="20" rows="10"></textarea>
+          </label>
+        </form>
       </div>
       <script src="./js/modal.js"></script>
     </div>
