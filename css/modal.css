@@ -59,14 +59,28 @@ label {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-.iconmodal {
-    width: 12px;
-    height: 12px;
+.iconmodal-person,
+.iconmodal-phone, 
+.iconmodal-email {
+    width: 14px;
+    height: 14px;
     position: relative;
 }
-.iconmodal {
+.iconmodal-person {
     position: absolute;
     left: 8.67%;
     right: 16.67%;
     top: 21.17%;
+}
+.iconmodal-phone {
+    position: absolute;
+    left: 8.67%;
+    right: 16.67%;
+    top: 31.17%;
+}
+.iconmodal-email {
+    position: absolute;
+    left: 8.67%;
+    right: 16.67%;
+    top: 41.17%;
 }
