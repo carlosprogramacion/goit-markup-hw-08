@@ -1,5 +1,6 @@
 :root {
     --textitulos: #212121;
+    --navegacion: #2196f3;
 }
 body {
     height: 0;
@@ -29,6 +30,10 @@ body {
     top: 2.22%;
     right: 3px; 
     margin-right: 12px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    
 }
 .titulo-modal p {
     color: var(--textitulos);
@@ -48,10 +53,22 @@ body {
 .is-hidden{
     display: none;
 }
-input {
-    padding: 8px;
-
+.form-input {
+    width: 100%;
+    padding: 11px 11px 11px 41px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 }
+.form-input:hover,  .form-input:focus {
+    border-color: var(--navegacion);
+    fill: var(--navegacion);
+}
+
+.iconmodal-person:focus,  .iconmodal-person:hover{
+    fill: var(--navegacion) 
+    
+}
+
 label {
     display: flex;
     flex-direction: column;
@@ -59,6 +76,8 @@ label {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
+
 .iconmodal-person,
 .iconmodal-phone, 
 .iconmodal-email {
@@ -76,11 +95,21 @@ label {
     position: absolute;
     left: 8.67%;
     right: 16.67%;
-    top: 31.17%;
+    top: 32.70%;
 }
 .iconmodal-email {
     position: absolute;
     left: 8.67%;
     right: 16.67%;
-    top: 41.17%;
+    top: 43.55%;
 }
+.placeholder {
+    position: absolute;
+    left: 8.67%;
+    right: 16.67%;
+    top: 41.17%; 
+}
+textarea {
+    padding: 10px;
+}
+
