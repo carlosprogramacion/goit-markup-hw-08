@@ -2,6 +2,7 @@
     --fondo1: #ffff;
     --textitulos: #212121;
     --navegacion: #2196f3;
+    --texcontenido1: #757575;
 }
 body {
     height: 0;
@@ -24,7 +25,7 @@ label {
 }
 .modal{
     width: 528px;
-    height: 581px;
+    height: 650px;
     background: var(--fondo1);
     padding: 2rem;
     margin-left: 40%;
@@ -95,19 +96,19 @@ label {
     position: absolute;
     left: 8.67%;
     right: 16.67%;
-    top: 21.17%;
+    top: 20.17%;
 }
 .iconmodal-phone {
     position: absolute;
     left: 8.67%;
     right: 16.67%;
-    top: 32.70%;
+    top: 30.70%;
 }
 .iconmodal-email {
     position: absolute;
     left: 8.67%;
     right: 16.67%;
-    top: 43.55%;
+    top: 40.55%;
 }
 .placeholder {
     position: absolute;
@@ -121,41 +122,54 @@ textarea {
 .form-hobby {
     width: 400px;
     height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texcontenido1);
 }
 
 .checkbox-input {
+    position: absolute;
    -webkit-appearance: none;
    -moz-appearance:    none;
-    appearance:        none;
+   appearance:         none;
 }
-
 .check-icon {
-    border: 1px solid black;
-    
+    position: relative;
+    border: 1px solid black;  
 }
-
 .checkbox-input:checked + .check-icon {
-    background-color: red;
+    background-color: var(--navegacion);
 }
 
 .btnenviar {
     width: 200px;
-    height: 50px;
-    
+    height: 40px;
     position: absolute;
-    background-color: var(--navegacion);
+    background-color: #188CE8;
     display: flex;
     justify-content: center;
     align-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .colorenviar {
-    background-color: var(--navegacion);
+    color: var(--fondo1);
+    background-color: #188CE8;
 }
 button {
     border: none;
 }
 .check {
-    display: block;
-    
-    
+    position: relative;
+    display: grid;
+    grid-template-columns: 5% 95%;
+    padding-left: 10px;
+}
+.section-enviar {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
 }

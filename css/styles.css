@@ -625,7 +625,7 @@ img {
   margin: 0 auto;
 }
 .redes2 {
-  width: 350px;
+  width: 274px;
   height: 189px;
   
 }
@@ -703,18 +703,15 @@ img {
 .form_suscribir {
   width: 350px;
   height: 189px;
-  padding: 3rem;
+  padding-top: 3rem;
 }
 .suscribirse {
-  
   box-sizing: border-box;
   position: absolute;
   width: 358px;
   height: 40px;
   left: 850px;
-
 }
-
 
 .iconos3 {
   width: 200px;
