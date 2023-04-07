@@ -35,7 +35,7 @@ label {
     position: fixed;
     top: 221px;
     bottom: 222px;
-    transition: translate(-50%, -50%);   
+       
 }
 .btmodal {
     width: 30px;
@@ -61,8 +61,7 @@ label {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23.44px;
-    letter-spacing: 3%;
+    line-height: 23.44px; 
     text-align: center;
 }
 .form-hobby {
@@ -170,9 +169,9 @@ button {
     position: relative;
     display: grid;
     grid-template-columns: 5% 95%;
-    padding-left: 14px;
+    padding-left: 4px;
     padding-top: 10px;
-    margin-left: 15px;
+    margin-left: 18px;
 }
 .section-enviar {
     padding-top: 15px;
