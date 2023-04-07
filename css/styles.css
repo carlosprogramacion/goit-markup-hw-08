@@ -270,7 +270,7 @@ img {
 
 .informacion {
   color: var(--fondo1);
-  margin-top: 0 auto;
+  
 }
 
 .btn {
@@ -627,6 +627,7 @@ img {
 .redes2 {
   width: 274px;
   height: 189px;
+ 
   
 }
 
