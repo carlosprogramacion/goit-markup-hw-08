@@ -44,8 +44,11 @@ label {
     margin-right: 12px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    
+    border-radius: 50%;  
+}
+.btmodal:hover > svg path{
+    fill: var(--navegacion);
+    cursor: pointer;
 }
 .titulo-modal p {
     color: var(--textitulos);
@@ -53,7 +56,6 @@ label {
     height: 23px;
     left: 576px;
     top: 261px;
-
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -75,15 +77,18 @@ label {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
-.form-input:hover,  .form-input:focus {
+
+.form-input:hover, .form-input:focus {
     border-color: var(--navegacion);
+   
+}
+.form-input:hover + .iconmodal-person, 
+.form-input:hover + .iconmodal-phone, 
+.form-input:hover + .iconmodal-email,
+.form-input:focus + .iconmodal-person {
     fill: var(--navegacion);
 }
 
-.iconmodal-person:focus,  .iconmodal-person:hover{
-    fill: var(--navegacion) 
-    
-}
 
 .iconmodal-person,
 .iconmodal-phone, 
@@ -96,19 +101,19 @@ label {
     position: absolute;
     left: 8.67%;
     right: 16.67%;
-    top: 20.17%;
+    top: 19.17%;
 }
 .iconmodal-phone {
     position: absolute;
     left: 8.67%;
     right: 16.67%;
-    top: 30.70%;
+    top: 28.70%;
 }
 .iconmodal-email {
     position: absolute;
     left: 8.67%;
     right: 16.67%;
-    top: 40.55%;
+    top: 38.55%;
 }
 .placeholder {
     position: absolute;
