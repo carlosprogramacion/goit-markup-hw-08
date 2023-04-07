@@ -3,6 +3,8 @@
     --textitulos: #212121;
     --navegacion: #2196f3;
     --texcontenido1: #757575;
+    --efecto: transform 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 body {
     height: 0;
@@ -87,8 +89,8 @@ label {
 .form-input:hover + .iconmodal-email,
 .form-input:focus + .iconmodal-person {
     fill: var(--navegacion);
+    transition: var(--efecto);  
 }
-
 
 .iconmodal-person,
 .iconmodal-phone, 
@@ -133,19 +135,17 @@ textarea {
     font-size: 14px;
     color: var(--texcontenido1);
 }
-
 .checkbox-input {
     position: absolute;
-   -webkit-appearance: none;
-   -moz-appearance:    none;
-   appearance:         none;
+    width: 16px;
+    height: 38px;
+    
+    
 }
+
 .check-icon {
     position: relative;
-    border: 1px solid black;  
-}
-.checkbox-input:checked + .check-icon {
-    background-color: var(--navegacion);
+    
 }
 
 .btnenviar {
@@ -170,7 +170,9 @@ button {
     position: relative;
     display: grid;
     grid-template-columns: 5% 95%;
-    padding-left: 10px;
+    padding-left: 14px;
+    padding-top: 10px;
+    margin-left: 15px;
 }
 .section-enviar {
     padding-top: 15px;
