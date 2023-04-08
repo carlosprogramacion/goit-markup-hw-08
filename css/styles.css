@@ -256,19 +256,19 @@ img {
 .navegacion-final {
   color: var(--fondo1);
 }
-.informacion {
+.informacioinformation {
   text-decoration: none;
   color: var(--fondo1);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   display: inline-block;
 }
-.informacion:hover,
-.informacion:focus {
+.information:hover,
+.information:focus {
   color: var(--navegacion);
 }
 
-.informacion {
+.information {
   color: var(--fondo1);
   
 }
