@@ -1,2 +1,2 @@
 ### Live Demo
-https://carlosprogramacion.github.io/goit-markup-hw-06/
+https://carlosprogramacion.github.io/goit-markup-hw-07/
