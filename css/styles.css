@@ -185,19 +185,6 @@ img {
 .icon-section > svg path{
   fill: var(--texcontenido1);
 }
-.icon-section2 {
-  display: flex;
-  padding: 10px;
-}
-.icon-section2 > svg{
-  cursor: pointer;
-}
-.icon-section2 > svg path{
-  fill: var(--texcontenido1);
-}
-.icon-section2 > svg:hover path{
-  fill: var(--navegacion);
-}
 
 .titulos {
   text-decoration: none;
