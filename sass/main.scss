@@ -25,7 +25,16 @@
       .icon-section > svg:hover path {
         fill: $navegacion;
       }
-      //principal
+      //Ventajas
+
+      .ventajas {
+        background-color: var(--fondo1);
+        width: 1600px;
+        margin: 0 auto;
+        padding-bottom: 5rem;
+        display: flex;
+        justify-content: space-around;
+      }
 
       
       

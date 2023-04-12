@@ -131,6 +131,11 @@ img {
   height: 294px;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .principal {
   background-image: url(../img/Soluciones1.jpg);
   background-repeat: no-repeat;
@@ -149,11 +154,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .titulo {
@@ -207,4 +207,13 @@ img {
 
 .icon-section > svg:hover path {
   fill: #2196f3;
+}
+
+.ventajas {
+  background-color: var(--fondo1);
+  width: 1600px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=main.css.map */
