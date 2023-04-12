@@ -1,1 +1,210 @@
-/*# sourceMappingURL=main.css.map */
+.navegacion {
+  text-decoration: none;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  width: 1600px;
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.navegacion-superior {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+}
+.navegacion-superior .logo {
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  width: 350px;
+  height: 31px;
+  font-size: 36px;
+  letter-spacing: 0.03px;
+  left: 215px;
+  margin-top: 30px;
+}
+.navegacion-superior .titulos {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #212121;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacion-contactos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+.navegacion-contactos .icon-section {
+  display: flex;
+  padding: 10px;
+}
+.navegacion-contactos .titulos-link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #212121;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  color: #757575;
+  background-color: #e5e5e5;
+}
+
+main {
+  background-color: #e5e5e5;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+header {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2f303a;
+  margin: 0 auto;
+  width: 1600px;
+  height: 252px;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  display: block;
+  width: 370px;
+  height: 294px;
+}
+
+.principal {
+  background-image: url(../img/Soluciones1.jpg);
+  background-repeat: no-repeat;
+  width: 1600px;
+  margin: 0 auto;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background-color: rgba(47, 48, 58, 0.4);
+  width: 1600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.titulo {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 44px;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: center;
+}
+
+.btn1 {
+  background-color: #2196f3;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  width: 261px;
+  height: 50px;
+  text-decoration: none;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 250ms transform 250ms ease;
+}
+
+.btn1:hover,
+.btn1:focus {
+  color: #212121;
+}
+
+.section-link {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.titulos:hover {
+  color: #2196f3;
+}
+
+.titulos-link:hover {
+  color: #2196f3;
+}
+
+.titulos-link:hover {
+  color: #2196f3;
+}
+
+.icon-section > svg:hover path {
+  fill: #2196f3;
+}/*# sourceMappingURL=main.css.map */

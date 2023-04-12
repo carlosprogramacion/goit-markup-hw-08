@@ -1,0 +1,41 @@
+    
+    @import "./utils/variables";
+    @import "./components/navegacion";
+    @import "./partials/generics";
+    @import "./components/principal";
+        
+      //Page Styles
+      .section-link {
+        width: 1600px;
+        margin: 0 auto;
+      }
+      
+      .titulos:hover {
+        color: $navegacion;
+      }
+      
+      .titulos-link:hover {
+        color: $navegacion;
+      }
+      
+      .titulos-link:hover {
+        color: $navegacion;
+      }
+      
+      .icon-section > svg:hover path {
+        fill: $navegacion;
+      }
+      //principal
+
+      
+      
+
+      
+
+      
+
+      
+
+      
+      
+    
