@@ -360,13 +360,14 @@ img {
   display: flex;
 }
 .titulo-fuertes {
-  text-align: center;
+  color: var(--textitulos);
   font-size: 45px;
   background-color: var(--fondo1);
+  text-align: center;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
+  width: 1600px;
   height: 120px;
   margin: 0;
 }
@@ -517,14 +518,6 @@ img {
   width: 212px;
   height: 16px;
 }
-.escritorio {
-  background-image: url(../img/escritorio.jpg);
-  width: 370px;
-  height: 294px;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-}
 
 .titulo-escritorio,
 .titulo-moviles,
@@ -536,6 +529,14 @@ img {
   justify-content: center;
   align-items: center;
   background-color: rgba(47, 48, 58, 0.8); 
+}
+.escritorio {
+  background-image: url(../img/escritorio.jpg);
+  width: 370px;
+  height: 294px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 .moviles {
   background-image: url(../img/moviles.jpg);
