@@ -193,6 +193,26 @@ img {
   height: 16px;
 }
 
+.titulo-footer {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 3rem;
+  width: 212px;
+  height: 16px;
+}
+
+.titulo-footer2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 3rem;
+  width: 212px;
+  height: 16px;
+}
+
 .principal {
   background-image: url(../img/Soluciones1.jpg);
   background-repeat: no-repeat;
@@ -525,4 +545,130 @@ img {
   border: solid;
   border-radius: 4px;
   border: 1px solid #2196f3;
+}
+
+.final {
+  width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding-right: 13rem;
+  position: relative;
+  padding-left: 13rem;
+}
+
+.pie_pagina {
+  width: 350px;
+  height: 189px;
+  padding-top: 28px;
+}
+.pie_pagina .logo {
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  width: 350px;
+  height: 31px;
+  font-size: 36px;
+  letter-spacing: 0.03px;
+  left: 215px;
+}
+.pie_pagina .information {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.information:hover,
+.information:focus {
+  color: #2196f3;
+}
+
+.redes2 {
+  width: 274px;
+  height: 189px;
+}
+.redes2 .encuentrenos {
+  width: 200px;
+  height: 78px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: start;
+}
+
+.iconos3 {
+  width: 200px;
+  height: 44px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.iconos3 .redes3 {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+}
+.iconos3 .redes3:hover, .iconos3 .redes3:focus {
+  background-color: #2196f3;
+}
+.iconos3 .icon-talentos2 {
+  width: 24px;
+  height: 44px;
+  fill: white;
+}
+
+.form_suscribir {
+  width: 350px;
+  height: 189px;
+  padding-top: 3rem;
+}
+.form_suscribir .suscribirse {
+  box-sizing: border-box;
+  position: absolute;
+  width: 358px;
+  height: 40px;
+  left: 810px;
+}
+
+.direccion {
+  background-color: #2f303a;
+  padding: 13px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 358px;
+  height: 50px;
+  left: 810px;
+  top: 117px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.btnform {
+  position: absolute;
+  padding-right: 28px;
+  width: 200px;
+  height: 50px;
+  left: 1175px;
+  top: 117px;
+  color: white;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.btnform .iconenviar {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 73.31%;
+  right: 15.19%;
+  top: 25.53%;
+  bottom: 3.65%;
+  background: var(--navegacion);
 }/*# sourceMappingURL=main.css.map */

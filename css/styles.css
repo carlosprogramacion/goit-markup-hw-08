@@ -75,6 +75,7 @@ img {
 }
 
 .direccion {
+  background-color: var(--fondo3);
   box-sizing: border-box;
   position: absolute;
   width: 358px;
@@ -239,7 +240,7 @@ img {
 .navegacion-final {
   color: var(--fondo1);
 }
-.informacioinformation {
+.information {
   text-decoration: none;
   color: var(--fondo1);
   font-family: 'Roboto', sans-serif;
@@ -251,10 +252,7 @@ img {
   color: var(--navegacion);
 }
 
-.information {
-  color: var(--fondo1);
-  
-}
+
 
 .btn {
   background-color: var(--fondo4);
@@ -612,8 +610,7 @@ img {
 }
 .redes2 {
   width: 274px;
-  height: 189px;
-  
+  height: 189px; 
 }
 
 .ubicacion {
@@ -675,7 +672,6 @@ img {
 .pie_pagina {
   width: 350px;
   height: 189px;
-  
 }
 .encuentrenos {
   width: 200px;
@@ -703,7 +699,6 @@ img {
   height: 44px;
   display: flex;
   justify-content: space-evenly; 
-  
 }
 .redes3 {
   background-color: rgba(255, 255, 255, 0.1);;
