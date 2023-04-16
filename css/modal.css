@@ -134,11 +134,7 @@ textarea {
     font-size: 14px;
     color: var(--texcontenido1);
 }
-.checkbox-input {
-    position: absolute;
-    width: 16px;
-    height: 38px;  
-}
+
 
 .check-icon {
     position: relative; 
@@ -169,6 +165,8 @@ button {
     padding-left: 4px;
     padding-top: 10px;
     margin-left: 18px;
+
+    
 }
 .section-enviar {
     padding-top: 15px;

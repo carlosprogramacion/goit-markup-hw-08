@@ -831,8 +831,7 @@ textarea {
   top: 221px;
   bottom: 222px;
 }
-
-.btmodal {
+.modal .btmodal {
   width: 30px;
   height: 30px;
   position: absolute;
@@ -840,11 +839,11 @@ textarea {
   right: 3px;
   margin-right: 12px;
   background: #FFFFFF;
+  transition: transform 250ms ease;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
-
-.btmodal:hover > svg path {
+.modal .btmodal:hover > svg path {
   fill: #2196f3;
   cursor: pointer;
 }
@@ -899,18 +898,12 @@ textarea {
   padding-top: 10px;
   margin-left: 18px;
 }
-
-.checkbox-input {
+.check .checkbox-input {
   position: absolute;
   width: 16px;
   height: 38px;
 }
-
-.check-icon {
-  position: relative;
-}
-
-.form-hobby {
+.check .form-hobby {
   width: 400px;
   height: 30px;
   font-family: "Roboto", sans-serif;
@@ -920,9 +913,8 @@ textarea {
   color: #757575;
 }
 
-.form-hobby {
-  width: 400px;
-  height: 24px;
+.check-icon {
+  position: relative;
 }
 
 .section-enviar {

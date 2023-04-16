@@ -1,0 +1,147 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, .5);
+    transition: $efecto;
+  }
+
+  .is-hidden{
+    display: none;
+}
+
+  .modal{
+    width: 528px;
+    height: 650px;
+    background: $fondo1;
+    padding: 2rem;
+    margin-left: 40%;
+    margin-right: 60%;
+    position: fixed;
+    top: 221px;
+    bottom: 222px;  
+    
+    .btmodal {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 2.22%;
+      right: 3px; 
+      margin-right: 12px;
+      background: #FFFFFF;
+      transition: $efecto;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;  
+    }
+
+    .btmodal:hover > svg path{
+      fill: $navegacion;
+      cursor: pointer;
+    }
+ }
+
+.titulo-modal p {
+  color: $textitulos;
+  width: 448px;
+  height: 23px;
+  left: 576px;
+  top: 261px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.44px; 
+  text-align: center;
+}
+
+.form-input {
+width: 100%;
+padding: 11px 11px 11px 41px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+.form-input:hover, .form-input:focus {
+border-color: $navegacion;
+}
+.form-input:hover + .iconmodal-form, 
+.form-input:focus + .iconmodal-form {
+fill: $navegacion;
+transition: $efecto;  
+}
+
+.form-input:hover, .form-input:focus {
+border-color: $navegacion;  
+}
+
+.iconmodal-form {
+position: absolute;
+left: 8.67%;
+right: 16.67%;
+width: 14px;
+transform: translateY(-25%);
+}
+
+.check {
+position: relative;
+display: grid;
+grid-template-columns: 5% 95%;
+padding-left: 4px;
+padding-top: 10px;
+margin-left: 18px;
+
+  .checkbox-input {
+    position: absolute;
+    width: 16px;
+    height: 38px;  
+  }
+
+  .form-hobby {
+    width: 400px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: $texcontenido1;
+  }
+}
+
+.check-icon {
+position: relative; 
+}
+
+.section-enviar {
+padding-top: 15px;
+display: flex;
+justify-content: center;
+align-content: space-between;
+
+.btnenviar {
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  background-color: #188CE8;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  .colorenviar {
+    color: $fondo1;
+    background-color: #188CE8;
+  }
+}
+}
+
+button {
+border: none;
+}
+
+.placeholder {
+position: absolute;
+left: 8.67%;
+right: 16.67%;
+top: 41.17%; 
+}
