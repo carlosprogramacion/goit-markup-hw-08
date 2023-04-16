@@ -34,9 +34,9 @@ label {
     margin-right: 60%;
     position: fixed;
     top: 221px;
-    bottom: 222px;
-       
+    bottom: 222px;      
 }
+
 .btmodal {
     width: 30px;
     height: 30px;
@@ -137,14 +137,11 @@ textarea {
 .checkbox-input {
     position: absolute;
     width: 16px;
-    height: 38px;
-    
-    
+    height: 38px;  
 }
 
 .check-icon {
-    position: relative;
-    
+    position: relative; 
 }
 
 .btnenviar {

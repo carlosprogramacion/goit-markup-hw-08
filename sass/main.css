@@ -117,6 +117,7 @@
 }
 
 body {
+  height: 0;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
@@ -177,6 +178,18 @@ img {
   display: block;
   width: 370px;
   height: 294px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+textarea {
+  padding: 10px;
 }
 
 .container {
@@ -792,4 +805,178 @@ img {
   background-color: white;
   border: 1px solid white;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: transform 250ms ease;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.modal {
+  width: 528px;
+  height: 650px;
+  background: white;
+  padding: 2rem;
+  margin-left: 40%;
+  margin-right: 60%;
+  position: fixed;
+  top: 221px;
+  bottom: 222px;
+}
+
+.btmodal {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 2.22%;
+  right: 3px;
+  margin-right: 12px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.btmodal:hover > svg path {
+  fill: #2196f3;
+  cursor: pointer;
+}
+
+.titulo-modal p {
+  color: #212121;
+  width: 448px;
+  height: 23px;
+  left: 576px;
+  top: 261px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.44px;
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  padding: 11px 11px 11px 41px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form-input:hover, .form-input:focus {
+  border-color: #2196f3;
+}
+
+.form-input:hover + .iconmodal-person,
+.form-input:hover + .iconmodal-phone,
+.form-input:hover + .iconmodal-email,
+.form-input:focus + .iconmodal-person {
+  fill: #2196f3;
+  transition: transform 250ms ease;
+}
+
+.form-input:hover, .form-input:focus {
+  border-color: #2196f3;
+}
+
+.iconmodal-person,
+.iconmodal-phone,
+.iconmodal-email {
+  width: 14px;
+  height: 14px;
+  position: relative;
+}
+
+.iconmodal-person {
+  position: absolute;
+  left: 8.67%;
+  right: 16.67%;
+  top: 19.17%;
+}
+
+.iconmodal-phone {
+  position: absolute;
+  left: 8.67%;
+  right: 16.67%;
+  top: 29.7%;
+}
+
+.iconmodal-email {
+  position: absolute;
+  left: 8.67%;
+  right: 16.67%;
+  top: 39.55%;
+}
+
+.check {
+  position: relative;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  padding-left: 4px;
+  padding-top: 10px;
+  margin-left: 18px;
+}
+
+.checkbox-input {
+  position: absolute;
+  width: 16px;
+  height: 38px;
+}
+
+.check-icon {
+  position: relative;
+}
+
+.form-hobby {
+  width: 400px;
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #757575;
+}
+
+.form-hobby {
+  width: 400px;
+  height: 24px;
+}
+
+.section-enviar {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+.section-enviar .btnenviar {
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  background-color: #188CE8;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.section-enviar .btnenviar .colorenviar {
+  color: white;
+  background-color: #188CE8;
+}
+
+button {
+  border: none;
+}
+
+.placeholder {
+  position: absolute;
+  left: 8.67%;
+  right: 16.67%;
+  top: 41.17%;
 }/*# sourceMappingURL=main.css.map */

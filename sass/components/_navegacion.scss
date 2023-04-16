@@ -15,7 +15,6 @@
     justify-content: space-evenly;
     border-bottom: 1px solid #ECECEC;
     
-
     .titulos-link:hover {
       color: $navegacion;
     }
@@ -30,8 +29,7 @@
     font-size: 36px;
     letter-spacing: 0.03px;
     left: 215px;
-    margin-top: 30px;
-    
+    margin-top: 30px; 
   }
   
   .navegacion-superior {
@@ -76,13 +74,8 @@
       .titulos:hover {
         color: $navegacion;
       }
-
-      
+  
   }
-
-  
-  
-
 
   .navegacion-superior .titulos:hover {
     color: #2196f3;

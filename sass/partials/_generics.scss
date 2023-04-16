@@ -3,6 +3,7 @@
   }
   
   body {
+    height: 0;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
@@ -64,6 +65,18 @@
     width: 370px;
     height: 294px;
   }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+textarea {
+  padding: 10px;
+}
 
   .container {
     width: 1200px;
