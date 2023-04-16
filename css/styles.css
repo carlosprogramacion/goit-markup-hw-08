@@ -750,8 +750,12 @@ img {
 
 .card-body {
   padding: 20px 24px;
-  
 }
+
+.texcard-body {
+  color: var(--textitulos);
+}
+
 .card-animation {
   position: absolute;
   top: 0;

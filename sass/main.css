@@ -670,11 +670,11 @@ img {
   right: 15.19%;
   top: 25.53%;
   bottom: 3.65%;
-  background: var(--navegacion);
+  background: #2196f3;
 }
 
 .container2 {
-  background-color: var(--fondo1);
+  background-color: white;
   width: 1600px;
   height: 150px;
   margin: 0 auto;
@@ -682,21 +682,21 @@ img {
 }
 
 .botones-2 {
-  background-color: var(--fondo2);
+  background-color: #e5e5e5;
 }
 
 .paginas {
   width: 1600px;
   margin: 0;
-  background-color: var(--fondo1);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-content: end;
 }
 
 .btn {
-  background-color: var(--fondo4);
-  color: var(--textitulos);
+  background-color: #f5f4fa;
+  color: #212121;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   cursor: pointer;
@@ -708,8 +708,8 @@ img {
 
 .btn:hover,
 .btn:focus {
-  background-color: var(--navegacion);
-  color: var(--fondo1);
+  background-color: #2196f3;
+  color: white;
 }
 
 .containerpag {
@@ -723,7 +723,7 @@ img {
   padding-left: 10rem;
   padding-right: 10rem;
   padding-bottom: 6rem;
-  background-color: var(--fondo1);
+  background-color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -735,7 +735,7 @@ img {
   width: 370px;
   height: 404px;
   padding-bottom: 1rem;
-  background-color: var(--fondo1);
+  background-color: white;
   border: 1px solid #EEEEEE;
 }
 
@@ -748,4 +748,48 @@ img {
   overflow: hidden;
   height: 294px;
   width: 370px;
+}
+
+.card-body {
+  padding: 20px 24px;
+}
+
+.texcard-body {
+  color: #212121;
+}
+
+.negocio {
+  color: #757575;
+}
+
+.negocio:hover {
+  color: #2196f3;
+}
+
+.card-animation {
+  position: absolute;
+  top: 0;
+  height: 294px;
+  width: 370px;
+  background: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: white;
+  transform: translateY(100%);
+  transition: transform 250ms ease;
+}
+
+.card:hover {
+  margin-top: 30px;
+  width: 370px;
+  height: 404px;
+  padding-bottom: 1rem;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }/*# sourceMappingURL=main.css.map */
