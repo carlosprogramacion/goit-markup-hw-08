@@ -80,10 +80,8 @@
 .form-input:hover, .form-input:focus {
   border-color: $navegacion;
 }
-.form-input:hover + .iconmodal-person, 
-.form-input:hover + .iconmodal-phone, 
-.form-input:hover + .iconmodal-email,
-.form-input:focus + .iconmodal-person {
+.form-input:hover + .iconmodal-form, 
+.form-input:focus + .iconmodal-form {
   fill: $navegacion;
   transition: $efecto;  
 }
@@ -92,33 +90,14 @@
 border-color: $navegacion;  
 }
 
-.iconmodal-person,
-.iconmodal-phone, 
-.iconmodal-email {
-    width: 14px;
-    height: 14px;
-    position: relative;
+.iconmodal-form {
+  position: absolute;
+  left: 8.67%;
+  right: 16.67%;
+  width: 14px;
+  transform: translateY(-25%);
 }
 
-.iconmodal-person {
-  position: absolute;
-  left: 8.67%;
-  right: 16.67%;
-  top: 19.17%;
-}
-.iconmodal-phone {
-  position: absolute;
-  left: 8.67%;
-  right: 16.67%;
-  top: 29.70%;
-}
-
-.iconmodal-email {
-  position: absolute;
-  left: 8.67%;
-  right: 16.67%;
-  top: 39.55%;
-}
 
 .check {
   position: relative;
